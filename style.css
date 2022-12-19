@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 1rem;
+    display: grid;
+    place-items: center;
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+}
+
+#heading {
+    background-color: rgb(9, 23, 172);
+    cursor: pointer;
+    font-size: xx-large;
+    color: #fff;
+    padding: 10px;
+}
+
+.color-btn {
+    border: none;
+    padding: 5px;
+    font-size: xx-large;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+#btn-green:hover {
+    background-color: green;
+    color: #fff;
+    transition: 0.2s;
+}
+
+#btn-red:hover {
+    background-color: red;
+    color: #fff;
+    transition: 0.3s;
+}
+
+#btn-blue:hover {
+    background-color: blue;
+    color: #fff;
+    transition: 0.3s;
+}
+
+#btn-orange:hover {
+    background-color: orange;
+    color: #fff;
+    transition: 0.3s;
+}
